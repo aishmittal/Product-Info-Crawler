@@ -16,14 +16,16 @@ Product-Info-Crawler is a python web crwaler developed using scrapy framework. I
 
 
 ## Running Crawler
-1. Go to root directory i.e. Product-Info-Crawler
-2. Run `python run_crawler.py`
-3. Enter the search keyword (a product or brand name) in command line.
-4. See the crawling results in `results.csv` file
+1. Open command line
+2. Go to root directory i.e. Product-Info-Crawler
+3. Run `python run_crawler.py`
+4. Enter the search keyword (a product or brand name) in command line.
+5. See the crawling results in `results.csv` file
 
 ## Running Demo
-1. Go to root directory i.e. Product-Info-Crawler
-2. Run `python demo/run.py`
-3. Open http://127.0.0.1:5000/ in browser window
-4. Enter the search keyword and click search button
-5. The products found are displayed with images, price and source info
+1. Open Terminal
+2. Go to demo directory i.e. Product-Info-Crawler/demo
+3. Run `python run.py`
+4. Open http://127.0.0.1:5000/ in browser window
+5. Enter the search keyword and click search button
+6. The products found are displayed with images, price and source info

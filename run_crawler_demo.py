@@ -11,7 +11,10 @@ import csv
 curfilePath = os.path.abspath(__file__)
 curDir = os.path.abspath(os.path.join(curfilePath, os.pardir))
 tmpDir = os.path.abspath(os.path.join(curDir,'demo/tmp/'))
+resultFile = os.path.abspath(os.path.join(curDir,'demo/results.csv'))
 
+print tmpDir
+print resultFile
 # remove old crawling data
 try:
     shutil.rmtree(tmpDir)
@@ -40,8 +43,10 @@ process.start()
 # Add results to results.csv file after crawling is complete
 interesting_files = glob.glob(tmpDir+'/*.csv')
 header_saved = False
-with open('results.csv','wb') as fout:
+with open(resultFile,'wb') as fout:
+
     for filename in interesting_files:
+        print filename
         if os.path.getsize(filename) > 0:
             with open(filename) as fin:
                 header = next(fin) 
