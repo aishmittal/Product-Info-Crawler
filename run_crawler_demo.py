@@ -28,7 +28,7 @@ configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
 s=get_project_settings()
 
 # Change the depth limit here
-s['DEPTH_LIMIT'] = 2
+# s['DEPTH_LIMIT'] = 2
 process = CrawlerProcess(s)
 
 # Add spiders to crawl

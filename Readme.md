@@ -1,5 +1,5 @@
 # Product-Info-Crawler
-Product-Info-Crawler is a python web crwaler developed using scrapy framework. It has four spiders for crawling the search results from olx.in, amazon.in, ebay.in and shopclues.com. The crawler extract the product names, price, image urls, product urls and source and stores them in a scv file named `results.csv`. It can be useful for comapairing the price of a particular product between different e-commerce websites.
+We developed a program named Product-Info-Crawler. Which is a python web crawler developed using scrapy framework. It has four spiders for crawling the search results from olx.in, amazon.in, ebay.in and shopclues.com. The crawler extract the product names, price, image urls, product urls and source and stores them in a csv file named `results.csv`. It can be useful for comparing the price of a particular product between different e-commerce websites.
 
 ## Install Dependencies
 
