@@ -21,7 +21,7 @@ Product-Info-Crawler is a python web crwaler developed using scrapy framework. I
 3. Enter the search keyword (a product or brand name) in command line.
 4. See the crawling results in `results.csv` file
 
-## Running Demp
+## Running Demo
 1. Go to root directory i.e. Product-Info-Crawler
 2. Run `python demo/run.py`
 3. Open http://127.0.0.1:5000/ in browser window
