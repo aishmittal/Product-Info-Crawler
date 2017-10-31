@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Demo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+  </head>
+  <body style="max-width: 100%;">
+ 	  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" id="home">Product Info Crawler</a>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container">
+    <div id="DivId1">
+      <div class="row">
+  
+          <h6 class="page-header">Product Search</h6>
+          <form action="#" class="container">
+          <div class="row">
+            <div class="input-field col s12">
+              <input placeholder="Product or Brands" id="search-keyword" type="text" class="validate">
+              <label for="search-keyword">Enter Search Keyword</label>
+            </div>
+          </div>
+          <div class="container">
+            <button type="button" class="waves-effect waves-light btn col-md-4 col-md-offset-3" id="search-button">Search
+            </button>
+          </div>
+          </form>
+  
+          </div>
+   
+      </div>
+
+    
+    <div id="DivId2">
+    <div class="row">
+      <h6 class="page-header"">Products Found</h6> 
+    </div>
+ 
+      <div class="row col s12" id="products-div">
+        <div class="row col s12 m6 l4 product-info" style="height: 400px">
+          <a class="product_url" href="" target="_blank">
+            <div class="card col s12">
+            <div class="card-image waves-effect waves-block waves-light col s12">
+              <img class="activator card product_image" src="" height="250" width="250">
+            </div>
+            <div class="card-content">
+              <div>
+              <span class="activator grey-text text-darken-4 col s12">
+                <span class="product_name"></span>
+              </span>
+              </div>
+              <div class="row col s12">
+                  <div><span class="grey-text text-darken-2">Price: </span><b><span class="price text-darken-8"></span></b></div>
+                  <div><span class="grey-text text-darken-2">Source: </span><b><span class="source text-darken-8"></span></b></div>     
+              </div>
+            </div>
+            </div>
+          </a>  
+        </div>
+      </div>  
+    </div>
+
+
+      
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    <script type="text/javascript">
+      
+
+    </script>
+    <script type="text/javascript" src="{{ url_for('static',filename='js/main.js') }}"></script>
+    
+    <script type="text/javascript">
+
+
+        
+    </script>
+
+  </body>
+</html>
