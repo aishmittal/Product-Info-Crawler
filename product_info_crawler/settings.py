@@ -27,7 +27,7 @@ FEED_FORMAT = "csv"
 FEED_URI = "tmp/%(name)s.csv"
 
 # Enable logs to see scrapy logs in command line
-# LOG_ENABLED=False
+LOG_ENABLED=False
 
 # Max deptth to crawl
 DEPTH_LIMIT=2
