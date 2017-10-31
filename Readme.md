@@ -1,7 +1,11 @@
 # Product-Info-Crawler
-We developed a program named Product-Info-Crawler. Which is a python web crawler developed using scrapy framework. It has four spiders for crawling the search results from olx.in, amazon.in, ebay.in and shopclues.com. The crawler extract the product names, price, image urls, product urls and source and stores them in a csv file named `results.csv`. It can be useful for comparing the price of a particular product between different e-commerce websites.
 
-## Install Dependencies
+![platform](https://img.shields.io/badge/python-2.7-blue.svg)
+![platform](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+
+Product-Info-Crawler is a python web crawler developed using scrapy framework. It has four spiders for crawling the search results from olx.in, amazon.in, ebay.in and shopclues.com. The crawler extract the product names, price, image urls, product urls and source and stores them in a csv file named `results.csv`. It can be useful for comparing the price of a particular product between different e-commerce websites.
+
+## Installing Dependencies
 
 ### Windows
 1. Install Python2.7 (Download from https://www.python.org/downloads/)
@@ -29,3 +33,7 @@ We developed a program named Product-Info-Crawler. Which is a python web crawler
 4. Open http://127.0.0.1:5000/ in browser window
 5. Enter the search keyword and click search button
 6. The products found are displayed with images, price and source info
+
+ ## Thanks
+Feel free to post issues if you find any problem or contact me [Aishwarya Mittal](https://www.facebook.com/aishhmittal)<br>
+©[MIT License](https://github.com/aishmittal/Product-Info-Crawler/blob/master/LICENSE)
