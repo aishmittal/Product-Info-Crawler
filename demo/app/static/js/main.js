@@ -26,8 +26,6 @@ $(document).ready(function(){
     var val = $('#search-keyword').val();
     console.log(val);
     if(val && val.length>0){
-      // var point=samplevisitors[val-1].slice(4,samplevisitors[val-1].length);
-
       $.post({
       url: host+'search_results',
       type: 'POST',

@@ -19,7 +19,7 @@ try:
 except:
     pass 
 
-# Get the search keyword fromthe user
+# Get the search keyword from the user
 print "Enter Search Keyword (product or brand name to search):",
 pruduct = raw_input()
 
@@ -55,3 +55,6 @@ with open('results.csv','wb') as fout:
                     header_saved = True
                 for line in fin:
                     fout.write(line)
+
+
+print 'Crawling Completed'
