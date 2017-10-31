@@ -45,7 +45,6 @@ class AmazonSpider(CrawlSpider):
          item_image=item.css('img.s-access-image::attr(src)').extract_first()
          item_price=item.css('span.a-color-price').extract_first()
          item_url=item.css('a.s-access-detail-page::attr(href)').extract_first()
-         print 'Amazon Item:',item_title
          if(item_title and item_image and item_price and item_url):
           title.append(cleanhtml(item_title))
           image.append(cleanhtml(item_image))
